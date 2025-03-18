@@ -6,15 +6,14 @@ This repository contains my solution to the **UCS Kaggle 654 Lab Exam 1 Set**. T
 
 ## Dataset
 The dataset provided in the lab exam consists of multiple features, which were analyzed and preprocessed before training the model. The dataset details include:
-- Number of features: *[Specify number]*
-- Number of samples: *[Specify number]*
-- Target variable: *[Specify name]*
+- Number of features: 6
+- Number of samples: spedified in csv
+- Target variable: target named column
 
 ## Solution Approach
 ### 1. Data Preprocessing
-- Handled missing values using *[technique used, e.g., mean imputation, median replacement]*.
-- Encoded categorical variables using *[One-Hot Encoding / Label Encoding]*.
-- Scaled numerical features using *[StandardScaler / MinMaxScaler]*.
+- Encoded categorical variables using  Label Encoding
+- Scaled numerical features using StandardScaler 
 
 ### 2. Exploratory Data Analysis (EDA)
 - Visualized data distributions and relationships.
@@ -27,27 +26,16 @@ The dataset provided in the lab exam consists of multiple features, which were a
 
 ### 4. Model Selection & Training
 - Evaluated multiple models including:
-  - *[List models used, e.g., Logistic Regression, Random Forest, XGBoost]*
+  -  XGBoost
 - Tuned hyperparameters using GridSearchCV / RandomizedSearchCV.
 - Used cross-validation to assess model performance.
 
 ### 5. Performance Metrics
 - The final model was evaluated using:
-  - Accuracy: *[Value]*
-  - Precision, Recall, F1-score: *[Values]*
-  - ROC-AUC Score: *[Value]*
+  - Accuracy: specified in notebook
 
-## Results & Insights
-- The best-performing model was *[model name]* with an accuracy of *[score]*.
-- Key findings from the dataset:
-  - *[Insight 1]*
-  - *[Insight 2]*
 
-## Dependencies
-To run this solution, install the required dependencies using:
-```bash
-pip install -r requirements.txt
-```
+
 ### Required Libraries
 - Python 3.x
 - NumPy
@@ -65,10 +53,7 @@ pip install -r requirements.txt
    ```bash
    cd ucs-kaggle-654-lab-exam
    ```
-3. Run the main script:
-   ```bash
-   python main.py
-   ```
+# Now Run notebook
 
 ## Future Improvements
 - Improve feature selection using advanced techniques like SHAP values.
@@ -77,8 +62,8 @@ pip install -r requirements.txt
 
 ## Author
 - **Your Name**  
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Kaggle: [Your Profile](https://www.kaggle.com/yourprofile)
+- LinkedIn: [ANANDA JANA](https://linkedin.com/in/ananda-jana-2a5a43356)
+
 
 ---
 Feel free to reach out for discussions or suggestions!
